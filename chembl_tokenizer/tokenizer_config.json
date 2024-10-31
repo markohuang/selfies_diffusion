@@ -1,0 +1,70 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<bos>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<cls>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<sep>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "4": {
+      "content": "<eos>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "6": {
+      "content": "<mask>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "bos_token": "<bos>",
+  "clean_up_tokenization_spaces": false,
+  "cls_token": "<cls>",
+  "eos_token": "<eos>",
+  "mask_token": "<mask>",
+  "model_max_length": 9999,
+  "pad_token": "<pad>",
+  "sep_token": "<sep>",
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "unk_token": "<unk>"
+}

@@ -1,0 +1,14 @@
+pytorch-lightning
+matplotlib
+ml-collections
+numpy
+wandb
+torch
+rdkit
+group-selfies
+tokenizers
+diffusers
+datasets
+transformers
+openbabel
+jupyter
