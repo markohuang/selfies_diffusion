@@ -17,7 +17,7 @@ callbacks = [
     GenerateOnValidationCallback(cfg.output_file),
     EarlyStopping(monitor="val/loss", mode="min", patience=3),
     LearningRateMonitor(logging_interval='epoch'),
-    ModelCheckpoint(monitor='val/loss'),
+    ModelCheckpoint(dirpath=cfg.log_dir, monitor='val/loss'),
 ]
 
 def my_collator(batch):
